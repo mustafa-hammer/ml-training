@@ -129,5 +129,5 @@ dmypy.json
 .pyre/
 
 #ML .csv and models
-*.csv
-*.model
+# *.csv
+# *.model
