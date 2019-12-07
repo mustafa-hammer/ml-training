@@ -14,6 +14,19 @@ pip3.7 install pandas
 pip3.7 install scikit-learn
 ```
 
+#To run:
+
+## step 1: create model, depending on which csv you use (and specs) this might take 5 min to 1 hour. 
+```
+python3.7 create_model.py
+```
+
+## step 2: use the model to compare two questions
+```
+python3.7 compare.py
+```
+
+
 Helpful links: 
 Gensim: https://radimrehurek.com/gensim/models/doc2vec.html
 
