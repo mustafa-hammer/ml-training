@@ -130,5 +130,5 @@ dmypy.json
 
 #ML .csv and models
 # *.csv
-# *.model
+*.model
 .DS_Store
