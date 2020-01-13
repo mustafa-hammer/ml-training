@@ -8,7 +8,7 @@ import pandas as pd
 
 # Import Data
 # you can switch this to "questions.csv" and then rerun to generate a new model. small_list is a subset to speed up development. 
-data=pd.read_csv('./small_list.csv')
+data=pd.read_csv('./statements.csv')
 
 q1_list = data['question1'].values.tolist()
 
